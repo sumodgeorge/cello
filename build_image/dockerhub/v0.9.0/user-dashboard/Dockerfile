@@ -13,7 +13,7 @@ RUN cd /tmp && ARCH=$(echo "$(uname -s|tr '[:upper:]' '[:lower:]'|sed 's/mingw64
     mkdir fabric-1.2 && tar -zxvf hyperledger-fabric-${ARCH}-${FABRIC_VERSION_1_2}.tar.gz -C fabric-1.2
 RUN cd /tmp && wget -c https://github.com/hyperledger/cello/archive/v0.9.0.zip && unzip v0.9.0.zip && mv cello-0.9.0 cello
 
-FROM node:8.9
+FROM node:18.16.0
 MAINTAINER haitao yue "hightall@me.com"
 COPY --from=builder /tmp/cello/user-dashboard/src/package.json /
 COPY --from=builder /tmp/cello/user-dashboard/src/yarn.lock /
