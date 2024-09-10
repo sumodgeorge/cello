@@ -52,7 +52,7 @@
   ],
   "dependencies": {
     "@ant-design/icons": "^4.1.0",
-    "@ant-design/pro-layout": "^5.0.0",
+    "@ant-design/pro-layout": "^6.11.0",
     "@antv/data-set": "^0.10.1",
     "antd": "^4.2.5",
     "bizcharts": "3.5.2-beta.1",
@@ -70,7 +70,7 @@
     "numeral": "^2.0.6",
     "nzh": "^1.0.4",
     "omit.js": "^1.0.0",
-    "path-to-regexp": "^3.0.0",
+    "path-to-regexp": "^8.0.0",
     "prop-types": "^15.6.2",
     "qs": "^6.6.0",
     "rc-animate": "^2.6.0",
@@ -84,7 +84,7 @@
     "react-redux": "^7.2.2",
     "redux": "^4.0.5",
     "resize-observer-polyfill": "^1.5.1",
-    "umi": "^3.1.4",
+    "umi": "^4.0.0",
     "umi-request": "^1.2.19",
     "validator": "^13.7.0"
   },
