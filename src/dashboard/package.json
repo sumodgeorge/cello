@@ -52,7 +52,7 @@
   ],
   "dependencies": {
     "@ant-design/icons": "^4.1.0",
-    "@ant-design/pro-layout": "^5.0.0",
+    "@ant-design/pro-layout": "^7.20.1",
     "@antv/data-set": "^0.10.1",
     "antd": "^4.2.5",
     "bizcharts": "3.5.2-beta.1",
