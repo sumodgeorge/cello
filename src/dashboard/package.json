@@ -52,7 +52,7 @@
   ],
   "dependencies": {
     "@ant-design/icons": "^4.1.0",
-    "@ant-design/pro-layout": "^5.0.0",
+    "@ant-design/pro-layout": "^7.20.1",
     "@antv/data-set": "^0.10.1",
     "@babel/core": "^7.26.10",
     "@babel/plugin-proposal-decorators": "^7.25.9",
